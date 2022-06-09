@@ -1,0 +1,35 @@
+// Animation pour les cercles du loader
+@keyframes rebound {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(30px);
+  }
+  75% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+//  Animation de disparition du loader
+@keyframes loader {
+  0% {
+    background-color: rgba(196, 195, 192, 1);
+  }
+  25% {
+    background-color: rgba(196, 195, 192, 1);
+  }
+  50% {
+    background-color: rgba(196, 195, 192, 1);
+  }
+  80% {
+    background-color: rgba(196, 195, 192, 0.5);
+  }
+  100% {
+    background-color: rgba(196, 195, 192, 0.5);
+    visibility: hidden;
+  }
+}
