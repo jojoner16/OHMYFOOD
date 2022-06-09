@@ -1,8 +1,8 @@
-@import "./Utils/variables", "./Utils/animations", "./Utils/mixins";
-@import "./Base/typography", "./Base/reset";
-@import "./Components/btn", "./Components/heart", "./Components/badge_new",
-  "./Components/_check_icons";
-@import "./Pages/resto_page";
+@import "./utils/variables", "./utils/animations", "./utils/mixins";
+@import "./base/typography", "./base/reset";
+@import "./components/btn", "./components/heart", "./components/badge_new",
+  "./components/_check_icons";
+@import "./pages/resto_page";
 
 // -----------LOADER-----------
 .loader {
