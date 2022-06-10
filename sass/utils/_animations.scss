@@ -1,16 +1,19 @@
 // Animation pour les cercles du loader
-@keyframes rebound {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(30px);
-  }
-  75% {
-    transform: translateY(-30px);
-  }
+@keyframes bounce {
+  0%,
+  75%,
   100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     transform: translateY(0);
+  }
+
+  25% {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
   }
 }
 
@@ -19,17 +22,20 @@
   0% {
     background-color: rgba(196, 195, 192, 1);
   }
-  25% {
-    background-color: rgba(196, 195, 192, 1);
+  20% {
+    background-color: rgba(196, 195, 192, 0.8);
   }
-  50% {
-    background-color: rgba(196, 195, 192, 1);
+  40% {
+    background-color: rgba(196, 195, 192, 0.6);
+  }
+  60% {
+    background-color: rgba(196, 195, 192, 0.4);
   }
   80% {
-    background-color: rgba(196, 195, 192, 0.5);
+    background-color: rgba(196, 195, 192, 0.2);
   }
   100% {
-    background-color: rgba(196, 195, 192, 0.5);
+    background-color: rgba(196, 195, 192, 0.2);
     visibility: hidden;
   }
 }
