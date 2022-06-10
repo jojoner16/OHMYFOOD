@@ -1,0 +1,23 @@
+.btn {
+  display: block;
+  width: max-content;
+  margin: auto;
+  background: linear-gradient(
+    170deg,
+    rgba(255, 121, 218, 1) 0%,
+    rgba(147, 86, 220, 1) 100%
+  );
+  color: white;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px 0px $shadow-color;
+  padding: 15px 20px;
+  font-weight: bold;
+  transform: scale(1);
+  transition: transform 500ms;
+  opacity: 1;
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    box-shadow: 2px 5px 5px 0px darken($shadow-color, 25);
+  }
+}
