@@ -374,3 +374,24 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.footer {
+  background-color: #353535;
+  padding: 25px;
+}
+.footer__logo {
+  font-size: 2em;
+  font-family: "Shrikhand", sans-serif;
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.footer__txt {
+  color: white;
+}
+.footer__icons {
+  margin-right: 10px;
+}
+.footer__list {
+  margin-bottom: 10px;
+}
