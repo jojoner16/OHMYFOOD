@@ -64,3 +64,17 @@
     display: inline-block;
   }
 }
+
+// -----------EXPLORER-----------
+.explorer {
+  padding: 40px 30px 55px 30px;
+  background-color: #f6f6f6;
+  text-align: center;
+  &__title {
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  &__parag {
+    margin-bottom: 30px;
+  }
+}
