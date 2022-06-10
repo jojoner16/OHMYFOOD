@@ -23,7 +23,8 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    margin-right: 35px;
+    margin-right: 17px;
+    margin-left: 17px;
     display: inline-block;
     &--1 {
       background-color: $primary-color;
@@ -82,6 +83,7 @@
 // -----------TUTO-----------
 .tuto {
   padding: 55px 20px 45px 20px;
+  font-weight: bold;
   &__title {
     margin-bottom: 30px;
   }
@@ -90,7 +92,8 @@
     display: flex;
     align-items: center;
     background-color: #f6f6f6;
-    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 5px 5px 0px $shadow-color;
+    border-radius: 20px 20px 20px 20px;
     padding: 0 70px 0 30px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -107,7 +110,7 @@
       align-items: center;
       justify-content: center;
       position: relative;
-      left: -45px;
+      left: -42px;
       color: white;
     }
     &:hover {
