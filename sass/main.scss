@@ -78,3 +78,43 @@
     margin-bottom: 30px;
   }
 }
+
+// -----------TUTO-----------
+.tuto {
+  padding: 55px 20px 45px 20px;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__card {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 70px 0 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    &__icon {
+      margin-right: 15px;
+      color: $shadow-color;
+    }
+    &__number {
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      background-color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      left: -45px;
+      color: white;
+    }
+    &:hover {
+      background-color: lighten($primary-color, $amount: 35%);
+    }
+    &:hover :nth-child(2) {
+      color: $primary-color;
+    }
+  }
+}
