@@ -348,3 +348,29 @@ a {
 .tuto__card:hover :nth-child(2) {
   color: #9356dc;
 }
+
+.restaurants {
+  padding: 55px 20px 45px 20px;
+  background-color: #f6f6f6;
+}
+.restaurants__title {
+  margin-bottom: 30px;
+}
+.restaurants__card {
+  position: relative;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.restaurants__card__img {
+  display: block;
+  max-height: 175px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+.restaurants__card__txt {
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+}
