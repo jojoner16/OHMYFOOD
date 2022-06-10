@@ -145,3 +145,25 @@
     }
   }
 }
+
+// -----------FOOTER-----------
+.footer {
+  background-color: #353535;
+  padding: 25px;
+  &__logo {
+    font-size: 2em;
+    font-family: "Shrikhand", sans-serif;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  &__txt {
+    color: white;
+  }
+  &__icons {
+    margin-right: 10px;
+  }
+  &__list {
+    margin-bottom: 10px;
+  }
+}
