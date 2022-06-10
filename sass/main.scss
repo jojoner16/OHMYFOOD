@@ -130,6 +130,7 @@
     margin-bottom: 30px;
   }
   &__card {
+    box-shadow: 2px 5px 5px 0px $shadow-color;
     position: relative;
     height: 250px;
     margin-bottom: 20px;
