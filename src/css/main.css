@@ -103,6 +103,36 @@ a {
   color: black;
 }
 
+.btn {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 5px 5px 0px #c4c3c0;
+          box-shadow: 2px 5px 5px 0px #c4c3c0;
+  padding: 15px 20px;
+  font-weight: bold;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  opacity: 1;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.8;
+  -webkit-box-shadow: 2px 5px 5px 0px #86847e;
+          box-shadow: 2px 5px 5px 0px #86847e;
+}
+
 @keyframes bounce {
   0%,
   75%,
@@ -171,6 +201,36 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+.btn {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 5px 5px 0px #c4c3c0;
+          box-shadow: 2px 5px 5px 0px #c4c3c0;
+  padding: 15px 20px;
+  font-weight: bold;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  opacity: 1;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.8;
+  -webkit-box-shadow: 2px 5px 5px 0px #86847e;
+          box-shadow: 2px 5px 5px 0px #86847e;
 }
 
 .pr_header {
