@@ -360,6 +360,7 @@ a {
   margin-bottom: 30px;
 }
 .restaurants__card {
+  box-shadow: 2px 5px 5px 0px #c4c3c0;
   position: relative;
   height: 250px;
   margin-bottom: 20px;
