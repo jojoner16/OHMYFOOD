@@ -400,3 +400,73 @@ a {
 .localisation__text {
   display: inline-block;
 }
+
+.explorer {
+  padding: 40px 30px 55px 30px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.explorer__title {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.explorer__parag {
+  margin-bottom: 30px;
+}
+
+.tuto {
+  padding: 55px 20px 45px 20px;
+}
+
+.tuto__title {
+  margin-bottom: 30px;
+}
+
+.tuto__card {
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0 70px 0 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.tuto__card__icon {
+  margin-right: 15px;
+  color: #c4c3c0;
+}
+
+.tuto__card__number {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #9356dc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: -45px;
+  color: white;
+}
+
+.tuto__card:hover {
+  background-color: #f2eafb;
+}
+
+.tuto__card:hover :nth-child(2) {
+  color: #9356dc;
+}
