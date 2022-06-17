@@ -133,6 +133,20 @@ a {
           box-shadow: 2px 5px 5px 0px #86847e;
 }
 
+.heart {
+  font-size: 20px;
+  color: grey;
+}
+
+.heart:hover {
+  -webkit-animation: fill 1s ease-out;
+          animation: fill 1s ease-out;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 @keyframes bounce {
   0%,
   75%,
@@ -231,6 +245,20 @@ a {
   opacity: 0.8;
   -webkit-box-shadow: 2px 5px 5px 0px #86847e;
           box-shadow: 2px 5px 5px 0px #86847e;
+}
+
+.heart {
+  font-size: 20px;
+  color: grey;
+}
+
+.heart:hover {
+  -webkit-animation: fill 1s ease-out;
+          animation: fill 1s ease-out;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .pr_header {
