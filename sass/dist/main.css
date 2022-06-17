@@ -82,6 +82,10 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -243,6 +247,10 @@ h1 {
 
 h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 * {
@@ -563,7 +571,7 @@ a {
 .restaurants__card {
   box-shadow: 2px 5px 5px 0px #c4c3c0;
   position: relative;
-  height: 240px;
+  height: 250px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -579,6 +587,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.restaurants__card__parag {
+  font-size: 17px;
+  color: #353535de;
+  margin-top: 4px;
 }
 
 .footer {
