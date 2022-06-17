@@ -480,9 +480,14 @@ a {
   box-shadow: inset 0px 2px 5px 0px #c4c3c0;
 }
 .localisation__icon {
-  margin-right: 15px;
+  color: #353535de;
+  margin-left: -26px;
+  font-size: 1.2em;
+  margin-right: 10px;
 }
 .localisation__text {
+  color: #353535de;
+  font-size: 1.12em;
   display: inline-block;
 }
 
