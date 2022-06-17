@@ -132,7 +132,7 @@
   &__card {
     box-shadow: 2px 5px 5px 0px $shadow-color;
     position: relative;
-    height: 250px;
+    height: 240px;
     margin-bottom: 20px;
     border-radius: 10px;
     &__img {
@@ -143,8 +143,9 @@
       object-fit: cover;
     }
     &__txt {
-      padding: 20px 15px 20px 15px;
+      padding: 15px 15px 15px 15px;
       display: flex;
+      align-items: center;
       justify-content: space-between;
     }
   }
