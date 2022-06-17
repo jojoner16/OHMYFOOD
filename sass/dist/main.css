@@ -497,10 +497,13 @@ a {
   text-align: center;
 }
 .explorer__title {
-  margin-bottom: 20px;
+  font-size: 1.8em;
+  margin-bottom: 14px;
   font-weight: bolder;
 }
 .explorer__parag {
+  color: #353535de;
+  font-size: 1.3em;
   margin-bottom: 30px;
 }
 
@@ -523,7 +526,9 @@ a {
   margin-left: 10px;
 }
 .tuto__card__icon {
-  margin-right: 15px;
+  font-size: 1.4em;
+  margin-left: -20px;
+  margin-right: 25px;
   color: #c4c3c0;
 }
 .tuto__card__number {
@@ -532,11 +537,14 @@ a {
   border-radius: 50%;
   background-color: #9356dc;
   display: flex;
-  align-items: center;
+  padding-top: 0.4em;
   justify-content: center;
   position: relative;
   left: -42px;
   color: white;
+}
+.tuto__card__text {
+  font-size: 1.14em;
 }
 .tuto__card:hover {
   background-color: #f2eafb;

@@ -77,10 +77,13 @@
   background-color: #f6f6f6;
   text-align: center;
   &__title {
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    margin-bottom: 14px;
     font-weight: bolder;
   }
   &__parag {
+    color: #353535de;
+    font-size: 1.3em;
     margin-bottom: 30px;
   }
 }
@@ -103,7 +106,9 @@
     margin-bottom: 20px;
     margin-left: 10px;
     &__icon {
-      margin-right: 15px;
+      font-size: 1.4em;
+      margin-left: -20px;
+      margin-right: 25px;
       color: $shadow-color;
     }
     &__number {
@@ -112,11 +117,14 @@
       border-radius: 50%;
       background-color: $primary-color;
       display: flex;
-      align-items: center;
+      padding-top: 0.4em;
       justify-content: center;
       position: relative;
       left: -42px;
       color: white;
+    }
+    &__text {
+      font-size: 1.14em;
     }
     &:hover {
       background-color: lighten($primary-color, $amount: 35%);
