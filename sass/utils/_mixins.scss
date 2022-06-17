@@ -1,0 +1,14 @@
+// Ombre classique
+@mixin shadow {
+  box-shadow: 2px 5px 5px 0px $shadow-color;
+}
+
+// Ombre plus sombre
+@mixin darker-shadow {
+  box-shadow: 2px 5px 5px 0px darken($shadow-color, 25);
+}
+
+// Couleur gradient bouton/coeurs
+@mixin gradient-color {
+  background: linear-gradient(170deg, $secondary-color, $primary-color);
+}
