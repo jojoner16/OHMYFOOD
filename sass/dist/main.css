@@ -87,6 +87,33 @@ a {
   box-shadow: 2px 5px 5px 0px #86847e;
 }
 
+.heart {
+  margin-top: 8px;
+  font-size: 20px;
+  color: grey;
+}
+.heart:hover {
+  animation: fill 1s ease-out;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.badge_new {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
 @keyframes bounce {
   0%, 75%, 100% {
     -webkit-transform: translateY(0);
@@ -174,6 +201,33 @@ a {
   transform: scale(1.05);
   opacity: 0.8;
   box-shadow: 2px 5px 5px 0px #86847e;
+}
+
+.heart {
+  margin-top: 8px;
+  font-size: 20px;
+  color: grey;
+}
+.heart:hover {
+  animation: fill 1s ease-out;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.badge_new {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 .pr_header {
@@ -402,7 +456,7 @@ a {
 .restaurants__card {
   box-shadow: 2px 5px 5px 0px #c4c3c0;
   position: relative;
-  height: 250px;
+  height: 240px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -414,8 +468,9 @@ a {
   object-fit: cover;
 }
 .restaurants__card__txt {
-  padding: 20px 15px 20px 15px;
+  padding: 15px 15px 15px 15px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
