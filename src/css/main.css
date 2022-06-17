@@ -147,6 +147,26 @@ a {
   font-weight: bold;
 }
 
+.badge_new {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
 @keyframes bounce {
   0%,
   75%,
@@ -259,6 +279,26 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+
+.badge_new {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 .pr_header {
@@ -576,7 +616,7 @@ a {
   -webkit-box-shadow: 2px 5px 5px 0px #c4c3c0;
           box-shadow: 2px 5px 5px 0px #c4c3c0;
   position: relative;
-  height: 250px;
+  height: 240px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -591,10 +631,13 @@ a {
 }
 
 .restaurants__card__txt {
-  padding: 20px 15px 20px 15px;
+  padding: 15px 15px 15px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
