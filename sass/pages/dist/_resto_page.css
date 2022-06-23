@@ -33,13 +33,58 @@
     visibility: hidden;
   }
 }
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.delay1 {
+  animation-delay: 0.1s;
+}
+
+.delay2 {
+  animation-delay: 0.3s;
+}
+
+.delay3 {
+  animation-delay: 0.6s;
+}
+
+.delay4 {
+  animation-delay: 0.9s;
+}
+
+@keyframes progress {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
 h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 30px;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 * {
@@ -65,6 +110,62 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+.btn {
+  display: block;
+  width: max-content;
+  margin: auto;
+  background: linear-gradient(170deg, #ff79da, #9356dc);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px 0px #c4c3c0;
+  padding: 15px 20px;
+  font-weight: bold;
+  transform: scale(1);
+  transition: transform 500ms;
+  opacity: 1;
+}
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  box-shadow: 2px 5px 5px 0px #86847e;
+}
+
+.heart {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: grey;
+}
+.heart:hover {
+  animation: fill 1s ease-out;
+  background: linear-gradient(170deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.badge_new {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.check_icons {
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: all 0.8s ease-in-out;
 }
 
 .pr_header {
@@ -112,7 +213,7 @@ a {
   content: "";
   display: block;
   margin-top: 5px;
-  width: 40px;
+  width: 45px;
   height: 3px;
   background-color: #99e2d0;
   animation: progress 2s;
