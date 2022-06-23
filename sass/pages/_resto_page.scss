@@ -37,8 +37,15 @@
     margin-bottom: 45px;
     &__title {
       font-family: "Shrikhand", sans-serif;
+      font-size: 28px;
+      font-weight: 500;
     }
   }
+}
+
+.pr_main .heart {
+  margin-right: 20px;
+  margin-top: 12px;
 }
 
 .dishes {
@@ -67,8 +74,8 @@
     border-radius: 10px;
     margin-bottom: 15px;
     overflow: hidden;
-    // @include shadow;
-    animation: appear 0.5s;
+    @include shadow;
+    animation: appear 1s;
     animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
     transform: scale(0);
     animation-fill-mode: both;
@@ -84,14 +91,14 @@
       }
     }
     &__price {
-      margin-left: 10px;
+      margin-top: 28px;
+      margin-right: 16px;
     }
     &__check {
       height: 70px;
-      width: 60px;
+      width: 80px;
       opacity: 0;
       background-color: $tertiary-color;
-      margin-left: 25px;
       margin-right: -70px;
       border-radius: 0 10px 10px 0;
       display: flex;

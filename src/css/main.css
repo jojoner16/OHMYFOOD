@@ -161,7 +161,18 @@ h2 {
 }
 
 h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h4 {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.dishes p {
+  font-size: 15px;
+  margin-top: 6px;
 }
 
 * {
@@ -221,7 +232,7 @@ a {
 }
 
 .heart {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
   color: grey;
@@ -363,7 +374,18 @@ h2 {
 }
 
 h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h4 {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.dishes p {
+  font-size: 15px;
+  margin-top: 6px;
 }
 
 * {
@@ -423,7 +445,7 @@ a {
 }
 
 .heart {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
   color: grey;
@@ -516,6 +538,13 @@ a {
 
 .pr_main__header__title {
   font-family: "Shrikhand", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.pr_main .heart {
+  margin-right: 20px;
+  margin-top: 12px;
 }
 
 .dishes {
@@ -555,8 +584,10 @@ a {
   border-radius: 10px;
   margin-bottom: 15px;
   overflow: hidden;
-  -webkit-animation: appear 0.5s;
-          animation: appear 0.5s;
+  -webkit-box-shadow: 2px 5px 5px 0px #c4c3c0;
+          box-shadow: 2px 5px 5px 0px #c4c3c0;
+  -webkit-animation: appear 1s;
+          animation: appear 1s;
   -webkit-animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
           animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
   -webkit-transform: scale(0);
@@ -579,15 +610,15 @@ a {
 }
 
 .dishes__card__price {
-  margin-left: 10px;
+  margin-top: 28px;
+  margin-right: 16px;
 }
 
 .dishes__card__check {
   height: 70px;
-  width: 60px;
+  width: 80px;
   opacity: 0;
   background-color: #99e2d0;
-  margin-left: 25px;
   margin-right: -70px;
   border-radius: 0 10px 10px 0;
   display: -webkit-box;
