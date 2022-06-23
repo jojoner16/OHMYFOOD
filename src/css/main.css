@@ -221,6 +221,8 @@ a {
 }
 
 .heart {
+  margin-bottom: 10px;
+  margin-right: 10px;
   font-size: 20px;
   color: grey;
 }
@@ -421,6 +423,8 @@ a {
 }
 
 .heart {
+  margin-bottom: 10px;
+  margin-right: 10px;
   font-size: 20px;
   color: grey;
 }
