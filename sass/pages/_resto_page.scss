@@ -75,10 +75,23 @@
     margin-bottom: 15px;
     overflow: hidden;
     @include shadow;
-    animation: appear 1s;
-    animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+    animation: appear 0.9s;
+    // animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+    animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
     transform: scale(0);
     animation-fill-mode: both;
+    &:nth-child(2) {
+      animation-delay: 0s;
+    }
+    &:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+    &:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+    &:nth-child(5) {
+      animation-delay: 0.9s;
+    }
     &__txt {
       width: 90%;
       white-space: nowrap;
@@ -114,5 +127,16 @@
       opacity: 1;
       transform: rotate(-360deg);
     }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    .dishes {
+      width: 31%;
+    }
+  }
+  .pr_img {
+    max-height: 360px;
   }
 }

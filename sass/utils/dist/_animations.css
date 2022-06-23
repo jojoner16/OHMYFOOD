@@ -14,22 +14,37 @@
 }
 @keyframes loader {
   0% {
-    background-color: #c4c3c0;
+    background-color: rgba(196, 195, 192, 0.95);
+  }
+  10% {
+    background-color: rgba(196, 195, 192, 0.9);
   }
   20% {
     background-color: rgba(196, 195, 192, 0.8);
   }
+  30% {
+    background-color: rgba(196, 195, 192, 0.7);
+  }
   40% {
     background-color: rgba(196, 195, 192, 0.6);
+  }
+  50% {
+    background-color: rgba(196, 195, 192, 0.5);
   }
   60% {
     background-color: rgba(196, 195, 192, 0.4);
   }
+  70% {
+    background-color: rgba(196, 195, 192, 0.3);
+  }
   80% {
     background-color: rgba(196, 195, 192, 0.2);
   }
+  90% {
+    background-color: rgba(196, 195, 192, 0.1);
+  }
   100% {
-    background-color: rgba(196, 195, 192, 0.2);
+    background-color: rgba(196, 195, 192, 0);
     visibility: hidden;
   }
 }
@@ -49,22 +64,6 @@
     transform: scale(1);
   }
 }
-.delay1 {
-  animation-delay: 0.1s;
-}
-
-.delay2 {
-  animation-delay: 0.3s;
-}
-
-.delay3 {
-  animation-delay: 0.6s;
-}
-
-.delay4 {
-  animation-delay: 0.9s;
-}
-
 @keyframes progress {
   0% {
     transform: scaleX(0);

@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: loader 3s;
+  animation: loader 1.5s;
   animation-fill-mode: both;
   &__circle {
     height: 30px;
@@ -212,6 +212,16 @@
     width: 100%;
     &__card {
       width: 49%;
+      margin: 20px;
+    }
+    .restaurants {
+      &__card {
+        height: 340px;
+        margin-bottom: 40px;
+        &__img {
+          max-height: 260px;
+        }
+      }
     }
   }
 
@@ -235,7 +245,7 @@
 
 @media screen and (min-width: 1920px) {
   .container {
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
   }
 

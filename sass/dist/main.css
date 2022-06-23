@@ -14,22 +14,37 @@
 }
 @keyframes loader {
   0% {
-    background-color: #c4c3c0;
+    background-color: rgba(196, 195, 192, 0.95);
+  }
+  10% {
+    background-color: rgba(196, 195, 192, 0.9);
   }
   20% {
     background-color: rgba(196, 195, 192, 0.8);
   }
+  30% {
+    background-color: rgba(196, 195, 192, 0.7);
+  }
   40% {
     background-color: rgba(196, 195, 192, 0.6);
+  }
+  50% {
+    background-color: rgba(196, 195, 192, 0.5);
   }
   60% {
     background-color: rgba(196, 195, 192, 0.4);
   }
+  70% {
+    background-color: rgba(196, 195, 192, 0.3);
+  }
   80% {
     background-color: rgba(196, 195, 192, 0.2);
   }
+  90% {
+    background-color: rgba(196, 195, 192, 0.1);
+  }
   100% {
-    background-color: rgba(196, 195, 192, 0.2);
+    background-color: rgba(196, 195, 192, 0);
     visibility: hidden;
   }
 }
@@ -49,22 +64,6 @@
     transform: scale(1);
   }
 }
-.delay1 {
-  animation-delay: 0.1s;
-}
-
-.delay2 {
-  animation-delay: 0.3s;
-}
-
-.delay3 {
-  animation-delay: 0.6s;
-}
-
-.delay4 {
-  animation-delay: 0.9s;
-}
-
 @keyframes progress {
   0% {
     transform: scaleX(0);
@@ -84,7 +83,18 @@ h2 {
 }
 
 h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h4 {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.dishes p {
+  font-size: 15px;
+  margin-top: 6px;
 }
 
 * {
@@ -133,7 +143,7 @@ a {
 }
 
 .heart {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
   color: grey;
@@ -184,22 +194,37 @@ a {
 }
 @keyframes loader {
   0% {
-    background-color: #c4c3c0;
+    background-color: rgba(196, 195, 192, 0.95);
+  }
+  10% {
+    background-color: rgba(196, 195, 192, 0.9);
   }
   20% {
     background-color: rgba(196, 195, 192, 0.8);
   }
+  30% {
+    background-color: rgba(196, 195, 192, 0.7);
+  }
   40% {
     background-color: rgba(196, 195, 192, 0.6);
+  }
+  50% {
+    background-color: rgba(196, 195, 192, 0.5);
   }
   60% {
     background-color: rgba(196, 195, 192, 0.4);
   }
+  70% {
+    background-color: rgba(196, 195, 192, 0.3);
+  }
   80% {
     background-color: rgba(196, 195, 192, 0.2);
   }
+  90% {
+    background-color: rgba(196, 195, 192, 0.1);
+  }
   100% {
-    background-color: rgba(196, 195, 192, 0.2);
+    background-color: rgba(196, 195, 192, 0);
     visibility: hidden;
   }
 }
@@ -219,22 +244,6 @@ a {
     transform: scale(1);
   }
 }
-.delay1 {
-  animation-delay: 0.1s;
-}
-
-.delay2 {
-  animation-delay: 0.3s;
-}
-
-.delay3 {
-  animation-delay: 0.6s;
-}
-
-.delay4 {
-  animation-delay: 0.9s;
-}
-
 @keyframes progress {
   0% {
     transform: scaleX(0);
@@ -254,7 +263,18 @@ h2 {
 }
 
 h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h4 {
   font-size: 18px;
+  font-weight: bold;
+}
+
+.dishes p {
+  font-size: 15px;
+  margin-top: 6px;
 }
 
 * {
@@ -303,7 +323,7 @@ a {
 }
 
 .heart {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
   color: grey;
@@ -371,6 +391,13 @@ a {
 }
 .pr_main__header__title {
   font-family: "Shrikhand", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.pr_main .heart {
+  margin-right: 20px;
+  margin-top: 12px;
 }
 
 .dishes {
@@ -383,7 +410,7 @@ a {
   content: "";
   display: block;
   margin-top: 5px;
-  width: 40px;
+  width: 45px;
   height: 3px;
   background-color: #99e2d0;
   animation: progress 2s;
@@ -400,10 +427,23 @@ a {
   border-radius: 10px;
   margin-bottom: 15px;
   overflow: hidden;
-  animation: appear 0.5s;
-  animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+  box-shadow: 2px 5px 5px 0px #c4c3c0;
+  animation: appear 0.9s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   transform: scale(0);
   animation-fill-mode: both;
+}
+.dishes__card:nth-child(2) {
+  animation-delay: 0s;
+}
+.dishes__card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.dishes__card:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.dishes__card:nth-child(5) {
+  animation-delay: 0.9s;
 }
 .dishes__card__txt {
   width: 90%;
@@ -417,14 +457,14 @@ a {
   text-overflow: ellipsis;
 }
 .dishes__card__price {
-  margin-left: 10px;
+  margin-top: 28px;
+  margin-right: 16px;
 }
 .dishes__card__check {
   height: 70px;
-  width: 60px;
+  width: 80px;
   opacity: 0;
   background-color: #99e2d0;
-  margin-left: 25px;
   margin-right: -70px;
   border-radius: 0 10px 10px 0;
   display: flex;
@@ -441,6 +481,15 @@ a {
   transform: rotate(-360deg);
 }
 
+@media screen and (min-width: 1024px) {
+  .container .dishes {
+    width: 31%;
+  }
+
+  .pr_img {
+    max-height: 360px;
+  }
+}
 .loader {
   width: 100%;
   height: 100%;
@@ -453,7 +502,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: loader 3s;
+  animation: loader 1.5s;
   animation-fill-mode: both;
 }
 .loader__circle {
@@ -643,6 +692,14 @@ a {
   }
   .container__card {
     width: 49%;
+    margin: 20px;
+  }
+  .container .restaurants__card {
+    height: 340px;
+    margin-bottom: 40px;
+  }
+  .container .restaurants__card__img {
+    max-height: 260px;
   }
 
   h2,
@@ -664,7 +721,7 @@ a {
 }
 @media screen and (min-width: 1920px) {
   .container {
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
   }
 
