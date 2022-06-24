@@ -245,6 +245,7 @@ a {
   margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
+  cursor: pointer;
   color: grey;
 }
 
@@ -453,6 +454,7 @@ a {
   margin-bottom: 15px;
   margin-right: 10px;
   font-size: 20px;
+  cursor: pointer;
   color: grey;
 }
 
@@ -576,6 +578,7 @@ a {
 }
 
 .dishes__card {
+  cursor: pointer;
   height: 70px;
   width: 100%;
   padding-left: 10px;
@@ -802,6 +805,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
   background-color: #f6f6f6;
   -webkit-box-shadow: 2px 5px 5px 0px #c4c3c0;
           box-shadow: 2px 5px 5px 0px #c4c3c0;

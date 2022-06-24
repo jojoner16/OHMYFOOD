@@ -99,6 +99,7 @@
     height: 75px;
     display: flex;
     align-items: center;
+    cursor: pointer;
     background-color: #f6f6f6;
     @include shadow;
     border-radius: 20px 20px 20px 20px;

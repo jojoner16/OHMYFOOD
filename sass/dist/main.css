@@ -581,6 +581,7 @@ a {
   height: 75px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   background-color: #f6f6f6;
   box-shadow: 2px 5px 5px 0px #c4c3c0;
   border-radius: 20px 20px 20px 20px;
