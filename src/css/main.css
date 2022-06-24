@@ -932,6 +932,10 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .pr_main__header__title {
+    font-size: 2.2em;
+    margin-left: 3%;
+  }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
